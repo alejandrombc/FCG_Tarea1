@@ -19,7 +19,7 @@ El enunciado de la tarea se encuentra en el pdf **_Enunciado.pdf_**
 
 El mundo esta formado por 8 modelos 3D contando plano y esfera solar. El modelo principal del mundo es la **Calavera**, este es el unico modelo que se puede escalar/rotar/trasladar de manera libre, todos los demas objetos (a excepcion de la esfera solar y el plano) tienen una animacion asociada. En cada caso usted puede deshabilitar las animaciones de los modelos no principales. Para la esfera solar se tiene una traslacion libre en todos los ejes.
 
-Ademas se tiene un skybox espacial para acompañar la escena
+Ademas se tiene un skybox espacial para acompañar la escena.
 
 A continuacion una imagen de dicho mundo:
 ![alt tag](https://i.gyazo.com/8ba89bc026010a5d36a26adcb87ec13c.png)
@@ -37,7 +37,7 @@ Las funcionalidad de interpolacion (Goraoud y Phong) solo se muestra en el menu 
 
 # Herramienta 
 
-La tarea previamente explicada fue desarrollada usando las siguientes herramientas
+La tarea previamente explicada fue desarrollada usando las siguientes herramientas:
 
 | Herramienta                         	 | Versión   													   |                            
 |----------------------------------------|-----------------------------------------------------------------|
