@@ -1,0 +1,47 @@
+﻿  OBJ.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  C:\Users\Alejandro\Documents\Fundamentos y Tecnicas en Computacion Grafica\Tarea 1\glfw-3.2.1\include\GLFW/glfw3.h(98): note: see previous definition of 'APIENTRY'
+c:\users\alejandro\documents\fundamentos y tecnicas en computacion grafica\tarea 1\tarea 1 - fcg\tarea 1 - fcg\GLSLProgram.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\alejandro\documents\fundamentos y tecnicas en computacion grafica\tarea 1\tarea 1 - fcg\tarea 1 - fcg\Modelos.h(36): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\alejandro\documents\fundamentos y tecnicas en computacion grafica\tarea 1\tarea 1 - fcg\tarea 1 - fcg\Modelos.h(37): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\alejandro\documents\fundamentos y tecnicas en computacion grafica\tarea 1\tarea 1 - fcg\tarea 1 - fcg\Modelos.h(38): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\alejandro\documents\fundamentos y tecnicas en computacion grafica\tarea 1\tarea 1 - fcg\tarea 1 - fcg\Modelos.h(39): warning C4305: 'initializing': truncation from 'double' to 'float'
+OBJ.cpp(99): warning C4018: '<': signed/unsigned mismatch
+OBJ.cpp(117): warning C4018: '<': signed/unsigned mismatch
+OBJ.cpp(126): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(127): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(128): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(130): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(131): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(132): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(134): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(135): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(136): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(142): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(143): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(144): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(145): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(146): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(147): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(182): warning C4018: '<': signed/unsigned mismatch
+OBJ.cpp(194): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(200): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(206): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+OBJ.cpp(250): warning C4305: '=': truncation from 'double' to 'float'
+OBJ.cpp(251): warning C4305: '=': truncation from 'double' to 'float'
+OBJ.cpp(252): warning C4305: '=': truncation from 'double' to 'float'
+OBJ.cpp(257): warning C4305: '=': truncation from 'double' to 'float'
+OBJ.cpp(258): warning C4305: '=': truncation from 'double' to 'float'
+OBJ.cpp(184): warning C4101: 'v': unreferenced local variable
+OBJ.cpp(184): warning C4101: 'u': unreferenced local variable
+  Skybox.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY': macro redefinition
+  C:\Users\Alejandro\Documents\Fundamentos y Tecnicas en Computacion Grafica\Tarea 1\glfw-3.2.1\include\GLFW/glfw3.h(98): note: see previous definition of 'APIENTRY'
+c:\users\alejandro\documents\fundamentos y tecnicas en computacion grafica\tarea 1\tarea 1 - fcg\tarea 1 - fcg\GLSLProgram.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating code
+  2 of 1198 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Tarea 1 - FCG.vcxproj -> C:\Users\Alejandro\Documents\Fundamentos y Tecnicas en Computacion Grafica\Tarea 1\Tarea 1 - FCG\Release\Tarea 1 - FCG.exe
+  Tarea 1 - FCG.vcxproj -> C:\Users\Alejandro\Documents\Fundamentos y Tecnicas en Computacion Grafica\Tarea 1\Tarea 1 - FCG\Release\Tarea 1 - FCG.pdb (Full PDB)
