@@ -645,20 +645,20 @@ void Interfaz::initAntTweakParam() {
 	modelTW = TwNewBar("EditLPuntual");
 	TwDefine("EditLPuntual visible=false size='200 150' position='20 20' color='128 0 0' label='Editar parametros Luz Puntual'");
 	TwWindowSize(GLFW_WIDTH, GLFW_HEIGHT);
-	TwAddVarRW(modelTW, "puntualC", TW_TYPE_FLOAT, &puntualC, "min=0 step=0.01 max=1.0 label='Constante'");
-	TwAddVarRW(modelTW, "puntualL", TW_TYPE_FLOAT, &puntualL, "min=0 step=0.001 max=1.0 label='Lineal'");
-	TwAddVarRW(modelTW, "puntualQ", TW_TYPE_FLOAT, &puntualQ, "min=0 step=0.0001 max=1.0 label='Cuadratica'");
+	TwAddVarRW(modelTW, "puntualC", TW_TYPE_FLOAT, &puntualC, "min=0.01 step=0.01 max=1.0 label='Constante'");
+	TwAddVarRW(modelTW, "puntualL", TW_TYPE_FLOAT, &puntualL, "min=0.001 step=0.001 max=1.0 label='Lineal'");
+	TwAddVarRW(modelTW, "puntualQ", TW_TYPE_FLOAT, &puntualQ, "min=0.0001 step=0.0001 max=2.0 label='Cuadratica'");
 	TwAddButton(modelTW, "Volver", volverL, NULL, " label='Volver' key=Esc");
 
 	//Editar Luz Reflector
 	modelTW = TwNewBar("EditLReflector");
 	TwDefine("EditLReflector visible=false size='250 300' position='20 20' color='128 0 0' label='Editar parametros Luz Reflector'");
 	TwWindowSize(GLFW_WIDTH, GLFW_HEIGHT);
-	TwAddVarRW(modelTW, "puntualC", TW_TYPE_FLOAT, &puntualC, "min=0 step=0.01 max=1.0 label='Constante'");
-	TwAddVarRW(modelTW, "puntualL", TW_TYPE_FLOAT, &puntualL, "min=0 step=0.001 max=1.0 label='Lineal'");
-	TwAddVarRW(modelTW, "puntualQ", TW_TYPE_FLOAT, &puntualQ, "min=0 step=0.0001 max=1.0 label='Cuadratica'");
-	TwAddVarRW(modelTW, "innerCut", TW_TYPE_FLOAT, &innerCut, "min=0 step=0.001 max=1.0 label='In coseno'");
-	TwAddVarRW(modelTW, "outerCut", TW_TYPE_FLOAT, &outerCut, "min=0 step=0.001 max=1.0 label='Out coseno'");
+	TwAddVarRW(modelTW, "puntualC", TW_TYPE_FLOAT, &puntualC, "min=0.01 step=0.01 max=1.0 label='Constante'");
+	TwAddVarRW(modelTW, "puntualL", TW_TYPE_FLOAT, &puntualL, "min=0.001 step=0.001 max=1.0 label='Lineal'");
+	TwAddVarRW(modelTW, "puntualQ", TW_TYPE_FLOAT, &puntualQ, "min=0.0001 step=0.0001 max=2.0 label='Cuadratica'");
+	TwAddVarRW(modelTW, "innerCut", TW_TYPE_FLOAT, &innerCut, "min=0.001 step=0.001 max=1.0 label='In coseno'");
+	TwAddVarRW(modelTW, "outerCut", TW_TYPE_FLOAT, &outerCut, "min=0.001 step=0.001 max=1.0 label='Out coseno'");
 	TwAddVarRW(modelTW, "LightDir", TW_TYPE_DIR3F, &direccionLuz,
 		" label='Direccion spotlight' opened=true help='Cambiar direccion luz' ");
 	TwAddButton(modelTW, "Volver", volverL, NULL, " label='Volver' key=Esc");
