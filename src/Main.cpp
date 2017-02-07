@@ -239,24 +239,24 @@ void draw() {
 
 		if (models[i].autoTranslate) {
 			if (i == 2) {
-				if (tiempo_traslacion[0] > 99) tiempo_traslacion[0] = 0;
-				if (tiempo_traslacion[0] >= 0 && tiempo_traslacion[0] < 50) {
-					models[i].ejeX += 0.009;
+				if (tiempo_traslacion[0] > 799) tiempo_traslacion[0] = 0;
+				if (tiempo_traslacion[0] >= 0 && tiempo_traslacion[0] < 400) {
+					models[i].ejeX += 0.003;
 					tiempo_traslacion[0]++;
 				}
-				else if (tiempo_traslacion[0] >= 50 && tiempo_traslacion[0] < 100) {
-					models[i].ejeX -= 0.009;
+				else if (tiempo_traslacion[0] >= 400 && tiempo_traslacion[0] < 800) {
+					models[i].ejeX -= 0.003;
 					tiempo_traslacion[0]++;
 				}
 			}
 			else {
-				if (tiempo_traslacion[1] > 99) tiempo_traslacion[1] = 0;
-				if (tiempo_traslacion[1] >= 0 && tiempo_traslacion[1] < 50) {
-					models[i].ejeX += 0.009;
+				if (tiempo_traslacion[1] > 799) tiempo_traslacion[1] = 0;
+				if (tiempo_traslacion[1] >= 0 && tiempo_traslacion[1] < 400) {
+					models[i].ejeX += 0.003;
 					tiempo_traslacion[1]++;
 				}
-				else if (tiempo_traslacion[1] >= 50 && tiempo_traslacion[1] < 100) {
-					models[i].ejeX -= 0.009;
+				else if (tiempo_traslacion[1] >= 400 && tiempo_traslacion[1] < 800) {
+					models[i].ejeX -= 0.003;
 					tiempo_traslacion[1]++;
 				}
 			}
@@ -264,24 +264,24 @@ void draw() {
 
 		if (models[i].autoScale) {
 			if (i == 6) {
-				if (tiempo_escalar[0] > 99) tiempo_escalar[0] = 0;
-				if (tiempo_escalar[0] >= 0 && tiempo_escalar[0] < 50) {
-					models[i].scaleT += 0.01;
+				if (tiempo_escalar[0] > 399) tiempo_escalar[0] = 0;
+				if (tiempo_escalar[0] >= 0 && tiempo_escalar[0] < 200) {
+					models[i].scaleT += 0.008;
 					tiempo_escalar[0]++;
 				}
-				else if (tiempo_escalar[0] >= 50 && tiempo_escalar[0] < 100) {
-					models[i].scaleT -= 0.01;
+				else if (tiempo_escalar[0] >= 200 && tiempo_escalar[0] < 400) {
+					models[i].scaleT -= 0.008;
 					tiempo_escalar[0]++;
 				}
 			}
 			else {
-				if (tiempo_escalar[1] > 99) tiempo_escalar[1] = 0;
-				if (tiempo_escalar[1] >= 0 && tiempo_escalar[1] < 50) {
-					models[i].scaleT += 0.01;
+				if (tiempo_escalar[1] > 399) tiempo_escalar[1] = 0;
+				if (tiempo_escalar[1] >= 0 && tiempo_escalar[1] < 200) {
+					models[i].scaleT += 0.008;
 					tiempo_escalar[1]++;
 				}
-				else if (tiempo_escalar[1] >= 50 && tiempo_escalar[1] < 100) {
-					models[i].scaleT -= 0.01;
+				else if (tiempo_escalar[1] >= 200 && tiempo_escalar[1] < 400) {
+					models[i].scaleT -= 0.008;
 					tiempo_escalar[1]++;
 				}
 			}
